@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{esint}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\begin{document}
+\Large
+
+\begin{align*}
+1_A = \left\{ \begin{array}{rcl} {1} & \mbox{if} & x \in A \\ 0 & \mbox{if} & x \notin A \end{array}\right
+\end{align*}
+\begin{align*}
+n\underbrace{\uparrow\dots\uparrow }_{n}n = n \rightarrow n \rightarrow n
+\end{align*}
+\begin{align*}
+&1\uparrow 1 = {^1}{1} = 1\\
+&2 \uparrow \uparrow 2 = {^2}{2} = 4\\
+&3 \uparrow\uparrow\uparrow 3 =  {^{{^3}{3}}}{3} = 3 \uparrow \uparrow 3\uparrow \uparrow3 = \underbrace{3^{3^{3^{3^{\cdot^{\cdot^{\cdot^3}}}}}}}_{3^{3^{3}} threes}
+\end{align*}
+\begin{align*}
+\frac{d}{dx}f(x)= \lim_{\bigtriangleup x \to 0}\frac{f(x+\bigtriangleup x)-f(x)}{\bigtriangleup x}
+\end{align*}
+\begin{align*}
+H_2O(\ell) + H_2O(\ell) \rightleftharpoons H_3O^{+}(aq) + OH^{-}(aq)
+\end{align*}
+\begin{align*}
+\Gamma(n+1) \stackrel{\text{def}}{=} \int_{o}^{\infty} \exp^{-t} t^{n} dt
+\end{align*}
+\begin{align*}
+\gcd(n, m \mod n); \quad x \equiv y \pmod{b}; \quad x \equiv y \mod c; \quad x \equiv y   (d)
+\end{align*}
+\begin{align*}
+&\nabla \cdot \boldsymbol{E} = \frac{\rho}{\varepsilon_0}\\
+&\nabla \cdot \boldsymbol{B} = 0\\
+&\nabla\times \boldsymbol{E} = -\frac{\partial\boldsymbol{B}}{\partical t}\\
+&\nabla\times \boldsymbol{B} = \mu_0\boldsymbol{J}  +\mu_0\varepsilon_0\frac{\partial\boldsymbol{E}}{\partial t}
+\end{align*}
+\begin{align*}
+&\oiint_{\partial V} \boldsymbol{E} \cdot d\boldsymbol{A} = \frac{Q(V)}{\varepsilon_0}\\
+&\oiint_{\partial V} \boldsymbol{B} \cdot d\boldsymbol{A} =  0\\
+&\oint_{\partial s} \boldsymbol{E} \cdot d\boldsymbol{I} = -\frac{\partial \Phi_{B,S}}{\partial t}\\
+&\oint_{\partial S} \boldsymbol{B} \cdot d\boldsymbol{I} =  \mu_0 I_S + \mu_0 \varepsilon_0 \frac{\partial \Phi_{E,S}}{\partial t}\\
+\end{align*}
+\begin{align*}
+\rho_0 = \left( \begin{array}{cc} \cos\theta & \sin\theta \\
+-\sin\theta & \cos\theta \end{array} \right) =  \left[ \begin{array}{cc}
+\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{array} \right]\\
+\end{align*}
+\begin{align*}
+\left[ \begin{array}{c|ccc}
+1 & 0 & \dots & 0\\ \hline 0&  * & \dots & * \\ \vdots & \vdots & \ddots & \vdots \\ 0& *& \dots&*\end{array} \right] = \begin{tabular}{|c|ccc|}\hline 1 & 0 & \dots & 0\\ \hline 0&  * & \dots & * \\ \vdots & \vdots & \ddots & \vdots \\ 0& *& \dots & * \\ \hline\end{tabular}\\
+\end{align*}
+\begin{align*}
+&\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}p_i(x_i - \={x})^{2}} = \sqrt{\frac{\sum_{i=1}^{N}p_i(x_i - \={x})^{2}}{N}}\\
+&\varphi(n) = n \cdot \prod_{\underset{p  prime}{p|n}} \left(1-\frac{1}{p}\right)\\
+\end{align*}
+\begin{align*}
+^4_{12}C^{5+}_2  \quad  ^{14}_{2}C^{5+}_{2}  \quad   ^{4}_{12}C^{5+}_{2}   \quad  ^{14}C^{5+}_{2}  \quad    {2}C^{5+}_{2}
+\end{align*}
+\begin{align*}
+\mathbb{Q} \cong \left\{ \begin{array}{rcl}
+\frac{a}{b} | \, a,b \, \in \, \mathbb{Z} \, and \, b \neq 0
+\end{array}\right\}
+\end{align*}
+\begin{align*}
+\frac{a}{b} \sim \frac{c}{d} \,  \Longleftrightarrow \, ad -bc = 0   
+\end{align*}
+
+\end{document}

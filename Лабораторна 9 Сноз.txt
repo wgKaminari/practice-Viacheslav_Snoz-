@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\Large
+Please type me!The quick fox jumps over the lazy dog.
+ 
+\begin{align}
+e^{i\pi} + 1 = 0
+\end{align}
+ 
+\begin{align}
+e^{i\theta} = cos{\theta} + isin{\theta}
+\end{align}
+ 
+\begin{align}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
+\end{align}
+ 
+\begin{align}
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\end{align}
+ 
+\begin{align}
+\vec{L} = \vec{r} \times \vec{p}
+\end{align}
+ 
+\begin{align}
+\sqrt[3]{x}
+\end{align}
+ 
+\begin{align}
+(x+y)^n = \sum_{r=0}^n \left( \begin{array}{c} n \\ r \end{array} \right) x^r y^{n-r}
+\end{align}
+
+\begin{align*}
+\sqrt{\frac{a_1^2+\dots+a_n^2}{n}} \geq \frac{a_1+\dots+a_n}{n} \geq \sqrt[n]{a_1+\dots+a_n} \geq \frac{n}{\frac{1}{a_1}+\dots+\frac{1}{a_n}}
+\end{align*}
+ 
+\begin{align}
+|\langle x,y\rangle|^2 \leq \langle x,x\rangle \cdot \langle y,y\rangle
+\end{align} 
+
+\begin{align}
+\notag
+&A1: \varphi \longrightarrow \left( \psi \rightarrow \varphi \right )\\
+\notag
+&A2: \left(\varphi \rightarrow \left( \psi \rightarrow \theta \right ) \right)\longrightarrow \left(\left(\varphi \rightarrow \psi \right) \rightarrow \left( \varphi \rightarrow \theta \right ) \right)\\
+&A3: \left(\neg\varphi \rightarrow \neg\psi \right) \longrightarrow \left(\psi \rightarrow \varphi \right)
+\end{align} 
+ 
+\end{document}
